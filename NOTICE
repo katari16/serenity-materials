@@ -1,0 +1,12 @@
+Serenity paper support code
+
+Adapted from the serenity_control package in the Serenity ROS 2 workspace,
+revision 399535d6dbf1f06014764cd725fdc2e86baafffc.
+The source package declares the Apache License, Version 2.0 in package.xml.
+Original authorship remains with the Serenity project contributors.
+
+This distribution separates the numerical algorithms from ROS, makes the
+assembly-A geometry explicit, vectorizes workspace sampling, adds portable
+input/output, and includes standalone examples and validation. See docs/METHODS.md.
+The six historical workspace geometry assets are copied without modification;
+the recorded point cloud is losslessly repacked as float64 NPZ coordinates.

@@ -1,0 +1,16 @@
+{
+  "package_version": "1.0.0",
+  "elapsed_seconds": 0.9079244169406593,
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Darwin",
+    "architecture": "arm64",
+    "dependencies": {
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit-learn": "1.5.2",
+      "matplotlib": "3.9.2",
+      "PyYAML": "6.0.2"
+    }
+  }
+}

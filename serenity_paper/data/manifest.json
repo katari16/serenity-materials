@@ -1,0 +1,50 @@
+{
+  "source_revision": "399535d6dbf1f06014764cd725fdc2e86baafffc",
+  "assets": [
+    {
+      "path": "data/reference_workspaces/4200mA_limit_with_spring _max_elong.ply",
+      "sha256": "9e456c7150f4c9a0caf4dcc54c02ba1c943b17369016d05f42f236195206dca4",
+      "source": "src/serenity_control/serenity_control/data/4200mA_limit_with_spring _max_elong.ply",
+      "role": "historical reference; not a regenerated result"
+    },
+    {
+      "path": "data/reference_workspaces/4200mA_limit_with_spring _max_elong.stl",
+      "sha256": "4fb1e37ff6ceb3c70ade7e554d6aa55389c731c46047cbb2bb03f2938bca9b41",
+      "source": "src/serenity_control/serenity_control/data/4200mA_limit_with_spring _max_elong.stl",
+      "role": "historical reference; not a regenerated result"
+    },
+    {
+      "path": "data/reference_workspaces/4200mA_not_watertight.stl",
+      "sha256": "b29dafa9127b166f41cf9cbda2c54e9b35b89f4ffc166def662f4053c3e873b3",
+      "source": "src/serenity_control/serenity_control/data/4200mA_not_watertight.stl",
+      "role": "historical reference; not a regenerated result"
+    },
+    {
+      "path": "data/reference_workspaces/core_positions_0.56m_4.6kN.stl",
+      "sha256": "4f8051bd6c6eac576899be5bdb21dd61b9fe3e4573eb6e49fd9fa18d43530f2b",
+      "source": "src/serenity_control/serenity_control/data/core_positions_0.56m_4.6kN.stl",
+      "role": "historical reference; not a regenerated result"
+    },
+    {
+      "path": "data/reference_workspaces/core_positions_4000N_spring_elong.stl",
+      "sha256": "5e38472cd25ed7af35dd54468dfca04fa646c10926456abc59ee8d3c6ff26101",
+      "source": "src/serenity_control/serenity_control/data/core_positions_4000N_spring_elong.stl",
+      "role": "historical reference; not a regenerated result"
+    },
+    {
+      "path": "data/reference_workspaces/core_positions_high_res.stl",
+      "sha256": "d1c44ea80129e8241d64133af6a93c1eec3a83c998365c084bc93a1b73fdf289",
+      "source": "src/serenity_control/serenity_control/data/core_positions_high_res.stl",
+      "role": "historical reference; not a regenerated result"
+    },
+    {
+      "path": "data/cave/recorded_cloud.npz",
+      "sha256": "2a61dd176b476113d7f8f70b29bdb0b985a851a653ce5ed85958619f7bcd825a",
+      "source": "src/serenity_control/serenity_control/data/latest_cave_cloud.pcd",
+      "source_sha256": "dcc04f4c43bd353f72192020092681d9c0710942e738513c25c362ef13f82a37",
+      "point_count": 921600,
+      "frame": "gravity_aligned",
+      "conversion": "All ASCII xyz coordinates parsed as float64; no filtering or downsampling. Original body-frame gravity retained separately."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools==75.1.0", "wheel==0.44.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "serenity-paper-code"
+version = "1.0.0"
+description = "Standalone cave-direction planning and actuator-limited core workspace computations"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = {file = "LICENSE"}
+dependencies = [
+  "numpy==1.26.4",
+  "scipy==1.13.1",
+  "scikit-learn==1.5.2",
+  "matplotlib==3.9.2",
+  "PyYAML==6.0.2",
+]
+
+[project.optional-dependencies]
+test = ["pytest==8.3.3"]
+
+[project.scripts]
+serenity-cave = "serenity_paper.cli:cave_main"
+serenity-workspace = "serenity_paper.cli:workspace_main"
+serenity-reproduce = "serenity_paper.cli:reproduce_main"
+serenity-validate = "serenity_paper.cli:validate_main"
+
+[tool.setuptools.packages.find]
+include = ["serenity_paper*"]
+
+[tool.setuptools.package-data]
+serenity_paper = ["configs/*.yaml", "data/*.json", "data/cave/*.npz", "data/reference_workspaces/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

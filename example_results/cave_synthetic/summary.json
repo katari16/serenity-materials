@@ -1,0 +1,23 @@
+{
+  "experiment": "synthetic_corridor",
+  "input_frame": "body",
+  "input_points": 2400,
+  "finite_points": 2400,
+  "slice_points": 2400,
+  "wall_clusters": 2,
+  "cluster_sizes": [
+    1200,
+    1200
+  ],
+  "direction_body": [
+    0.9868666459396294,
+    0.017522476203766638,
+    0.1605838907224345
+  ],
+  "direction_gravity_aligned": [
+    0.9999999999357301,
+    1.1337542298902929e-05,
+    0.0
+  ],
+  "heading_sign": "Toward previous direction when supplied; otherwise an arbitrary axis orientation"
+}

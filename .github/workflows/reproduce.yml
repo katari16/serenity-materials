@@ -1,0 +1,29 @@
+name: Reproduce numerical examples
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  check:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {os: ubuntu-latest, python: '3.10'}
+          - {os: ubuntu-latest, python: '3.12'}
+          - {os: macos-latest, python: '3.11'}
+          - {os: windows-latest, python: '3.12'}
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m pip install --no-deps --no-build-isolation -e .
+      - run: python -m pytest -q
+      - run: python scripts/reproduce.py --output results/quick
+      - if: matrix.os == 'ubuntu-latest' && matrix.python == '3.12'
+        run: python scripts/reproduce.py --full --output results/full
+      - uses: actions/upload-artifact@v4
+        with:
+          name: results-${{ matrix.os }}-${{ matrix.python }}
+          path: results/

@@ -1,0 +1,18 @@
+schema_version: 1
+name: synthetic_corridor
+robot: robot.yaml
+input:
+  kind: synthetic
+  frame: body
+  gravity_body: [1.5, -2.0, -9.0]
+  seed: 7
+  points_per_wall: 1200
+  length_m: 8.0
+  width_m: 2.4
+  noise_std_m: 0.003
+planner:
+  clearance: 0.20
+  slice_half_height: 0.05
+  distance_threshold: 0.05
+  min_cluster_points: 500
+  previous_direction: null

@@ -1,0 +1,12 @@
+schema_version: 1
+name: workspace_full
+robot: robot.yaml
+sampling:
+  barycentric_samples: 150
+  radial_samples: 300
+  radial_min: 0.60
+  radial_max: 1.0
+actuation:
+  current_limit_ma: 4200.0
+  force_per_current_n_per_ma: 1.15
+  tension_only: false

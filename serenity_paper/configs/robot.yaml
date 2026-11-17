@@ -1,0 +1,337 @@
+schema_version: 1
+name: Serenity assembly A
+assembly: A
+coordinate_frame: body
+length_unit: m
+body_names:
+- cage
+- core
+rod_length_m: 0.535
+outer_radius_m: 0.5088152362179071
+core_radius_m: 0.09
+spring_stiffness_n_per_m: 4740
+spring_initial_elongation_m: 0.002
+spring_maximum_elongation_m: 0.28563
+vertices:
+- name: vertex_00
+  position_m:
+  - 1.2777291882458198e-17
+  - -0.30888239401644985
+  - 0.40433230303075135
+- name: vertex_01
+  position_m:
+  - -0.4328240919905969
+  - 0.24989110602252654
+  - -0.09544990901430155
+- name: vertex_02
+  position_m:
+  - -1.2777291882458198e-17
+  - 0.30888239401644985
+  - -0.40433230303075135
+- name: vertex_03
+  position_m:
+  - 0.4328240919905969
+  - -0.24989110602252654
+  - 0.09544990901430155
+- name: vertex_04
+  position_m:
+  - -0.4328240919905969
+  - -0.24989110602252645
+  - 0.09544990901430157
+- name: vertex_05
+  position_m:
+  - 0.26749999999999996
+  - -0.15444119700822487
+  - -0.40433230303075135
+- name: vertex_06
+  position_m:
+  - 0.4328240919905969
+  - 0.24989110602252645
+  - -0.09544990901430157
+- name: vertex_07
+  position_m:
+  - -0.26749999999999996
+  - 0.15444119700822487
+  - 0.40433230303075135
+- name: vertex_08
+  position_m:
+  - -4.816941351585578e-17
+  - -0.49978221204505296
+  - -0.09544990901430163
+- name: vertex_09
+  position_m:
+  - 0.2675
+  - 0.15444119700822487
+  - 0.40433230303075135
+- name: vertex_10
+  position_m:
+  - 4.816941351585578e-17
+  - 0.49978221204505296
+  - 0.09544990901430163
+- name: vertex_11
+  position_m:
+  - -0.2675
+  - -0.15444119700822487
+  - -0.40433230303075135
+edges:
+- name: edge_00
+  vertices:
+  - vertex_00
+  - vertex_07
+- name: edge_01
+  vertices:
+  - vertex_00
+  - vertex_04
+- name: edge_02
+  vertices:
+  - vertex_07
+  - vertex_01
+- name: edge_03
+  vertices:
+  - vertex_04
+  - vertex_01
+- name: edge_04
+  vertices:
+  - vertex_01
+  - vertex_02
+- name: edge_05
+  vertices:
+  - vertex_02
+  - vertex_06
+- name: edge_06
+  vertices:
+  - vertex_02
+  - vertex_05
+- name: edge_07
+  vertices:
+  - vertex_06
+  - vertex_03
+- name: edge_08
+  vertices:
+  - vertex_05
+  - vertex_03
+- name: edge_09
+  vertices:
+  - vertex_03
+  - vertex_00
+- name: edge_10
+  vertices:
+  - vertex_04
+  - vertex_11
+- name: edge_11
+  vertices:
+  - vertex_04
+  - vertex_08
+- name: edge_12
+  vertices:
+  - vertex_11
+  - vertex_05
+- name: edge_13
+  vertices:
+  - vertex_08
+  - vertex_05
+- name: edge_14
+  vertices:
+  - vertex_05
+  - vertex_06
+- name: edge_15
+  vertices:
+  - vertex_06
+  - vertex_10
+- name: edge_16
+  vertices:
+  - vertex_06
+  - vertex_09
+- name: edge_17
+  vertices:
+  - vertex_10
+  - vertex_07
+- name: edge_18
+  vertices:
+  - vertex_09
+  - vertex_07
+- name: edge_19
+  vertices:
+  - vertex_07
+  - vertex_04
+- name: edge_20
+  vertices:
+  - vertex_08
+  - vertex_03
+- name: edge_21
+  vertices:
+  - vertex_08
+  - vertex_00
+- name: edge_22
+  vertices:
+  - vertex_03
+  - vertex_09
+- name: edge_23
+  vertices:
+  - vertex_00
+  - vertex_09
+- name: edge_24
+  vertices:
+  - vertex_09
+  - vertex_10
+- name: edge_25
+  vertices:
+  - vertex_10
+  - vertex_02
+- name: edge_26
+  vertices:
+  - vertex_10
+  - vertex_01
+- name: edge_27
+  vertices:
+  - vertex_02
+  - vertex_11
+- name: edge_28
+  vertices:
+  - vertex_01
+  - vertex_11
+- name: edge_29
+  vertices:
+  - vertex_11
+  - vertex_08
+springs:
+- name: spring_00
+  cage_vertex: vertex_00
+  core_attachment_m:
+  - -0.020522565135199667
+  - -0.026494511572346877
+  - 0.08553605090716053
+- name: spring_01
+  cage_vertex: vertex_01
+  core_attachment_m:
+  - -0.05527159281624946
+  - 0.05849102107115534
+  - -0.044310295751499196
+- name: spring_02
+  cage_vertex: vertex_02
+  core_attachment_m:
+  - -0.0015428282854511863
+  - 0.0804597336492027
+  - -0.044310289660453854
+- name: spring_03
+  cage_vertex: vertex_03
+  core_attachment_m:
+  - 0.09097414933416965
+  - -0.01239921879460601
+  - 0.003084534504792524
+- name: spring_04
+  cage_vertex: vertex_04
+  core_attachment_m:
+  - -0.056225113130295094
+  - -0.0725863150137671
+  - 0.0030845345047925414
+- name: spring_05
+  cage_vertex: vertex_05
+  core_attachment_m:
+  - 0.07045158746466472
+  - -0.03889373833572343
+  - -0.044310289660453896
+- name: spring_06
+  cage_vertex: vertex_06
+  core_attachment_m:
+  - 0.0782905065490361
+  - 0.018621092950923852
+  - -0.044310295751499224
+- name: spring_07
+  cage_vertex: vertex_07
+  core_attachment_m:
+  - -0.012683637514913306
+  - 0.031020318544077167
+  - 0.08553605090716054
+- name: spring_08
+  cage_vertex: vertex_08
+  core_attachment_m:
+  - -0.023018913732786684
+  - -0.07711211402207917
+  - -0.044310295751499224
+- name: spring_09
+  cage_vertex: vertex_09
+  core_attachment_m:
+  - 0.03320620265011303
+  - -0.004525806971730342
+  - 0.08553605090716053
+- name: spring_10
+  cage_vertex: vertex_10
+  core_attachment_m:
+  - -0.03474903620387456
+  - 0.0849855338083731
+  - 0.0030845345047925627
+- name: spring_11
+  cage_vertex: vertex_11
+  core_attachment_m:
+  - -0.06890875917921356
+  - -0.041565995313479244
+  - -0.04431028966045387
+actuators:
+- name: actuator_0
+  source_index: 0
+  cage_edge: edge_01
+  core_attachment_m:
+  - -0.04397475736878463
+  - -0.05677134458160376
+  - 0.05077807164528143
+- name: actuator_1
+  source_index: 1
+  cage_edge: edge_28
+  core_attachment_m:
+  - -0.0711528052990612
+  - 0.00969758471582258
+  - -0.05077807164528142
+- name: actuator_2
+  source_index: 2
+  cage_edge: edge_13
+  core_attachment_m:
+  - 0.027178047930276557
+  - -0.0664689292974263
+  - -0.05077807164528145
+- name: actuator_3
+  source_index: 3
+  cage_edge: edge_05
+  core_attachment_m:
+  - 0.0439723470362285
+  - 0.056765449643353956
+  - -0.05078257497738111
+- name: actuator_4
+  source_index: 4
+  cage_edge: edge_22
+  core_attachment_m:
+  - 0.0711528052990612
+  - -0.00969758471582258
+  - 0.05077807164528142
+- name: actuator_5
+  source_index: 5
+  cage_edge: edge_17
+  core_attachment_m:
+  - -0.027178047930276557
+  - 0.0664689292974263
+  - 0.05077807164528145
+sampling_faces:
+- - actuator_3
+  - actuator_4
+  - actuator_5
+- - actuator_1
+  - actuator_3
+  - actuator_5
+- - actuator_0
+  - actuator_1
+  - actuator_5
+- - actuator_0
+  - actuator_4
+  - actuator_5
+- - actuator_3
+  - actuator_4
+  - actuator_2
+- - actuator_1
+  - actuator_3
+  - actuator_2
+- - actuator_0
+  - actuator_1
+  - actuator_2
+- - actuator_0
+  - actuator_4
+  - actuator_2

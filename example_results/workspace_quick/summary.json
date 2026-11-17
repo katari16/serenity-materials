@@ -1,0 +1,31 @@
+{
+  "experiment": "workspace_quick",
+  "coordinate_frame": "body",
+  "length_unit": "m",
+  "boundary_points": 3366,
+  "triangles": 6728,
+  "rays_total_with_face_duplicates": 3720,
+  "rays_without_feasible_sample": 0,
+  "candidate_evaluations": 139296,
+  "invalid_equilibrium_candidates": 0,
+  "mesh_closed": true,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "force_limit_n": 4830.0,
+  "maximum_absolute_force_n": 4829.891977203348,
+  "spring_elongation_limit_m": 0.28563,
+  "maximum_spring_elongation_m": 0.2732918970683228,
+  "bounds_m": [
+    [
+      -0.24350435177593988,
+      -0.2274750347162167,
+      -0.17377546333906502
+    ],
+    [
+      0.24350435177593988,
+      0.2274750347162167,
+      0.17377546333906504
+    ]
+  ],
+  "surface_interpretation": "Triangulated first-feasible radial samples; interpolated faces and interior are not certified feasible"
+}

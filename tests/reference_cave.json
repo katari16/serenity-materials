@@ -1,0 +1,13 @@
+{
+  "source": "Original CaveDirection on reconstructed body-frame coordinates from latest_cave_cloud.pcd",
+  "direction_body": [
+    0.6750707905603067,
+    -0.4563752493963349,
+    -0.5796559837271724
+  ],
+  "cluster_sizes": [
+    1502,
+    750
+  ],
+  "slice_points": 2375
+}

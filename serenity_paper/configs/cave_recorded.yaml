@@ -1,0 +1,14 @@
+schema_version: 1
+name: recorded_cave
+robot: robot.yaml
+input:
+  kind: recorded
+  path: ../data/cave/recorded_cloud.npz
+  frame: gravity_aligned
+  gravity_body: [-3.707652451302842, -8.710494434895647, 2.540000000000002]
+planner:
+  clearance: 0.20
+  slice_half_height: 0.05
+  distance_threshold: 0.05
+  min_cluster_points: 500
+  previous_direction: null
